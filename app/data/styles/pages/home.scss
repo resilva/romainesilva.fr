@@ -1,0 +1,60 @@
+#home {
+    background: url(/data/images/home/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center 15%;
+
+    min-width: 100%;
+    min-height: 100%;
+
+    position: absolute;
+
+    margin: 0;
+    padding: 0;
+
+    display: block;
+
+    font-family: 'Droid Serif', serif;
+
+    filter: sepia(100%);
+
+    #introduction {
+        position: absolute;
+        bottom: 50%;
+        left: 10px;
+        color: #000;
+        font-family: 'Georgia', Times, serif;
+
+        p {
+            padding: 30px;
+            border-left: 5px solid rgba(255,255,255,0.7);
+            background-color: rgba(255,255,255,0.4);
+            line-height: 32px;
+            box-shadow:  5px 5px 0px 0px rgba(127, 118, 100, 0.2);
+            position: relative;
+
+            &:first-line {
+                font-weight: bold;
+                font-size: 24px;
+                color: #7f7664;
+            }
+        }
+    }
+
+    #github-activity {
+        position: absolute;
+        bottom: 10%;
+        right: 10px;
+        color: #000;
+        border-left: 5px solid rgba(255,255,255,0.7);
+        background-color: rgba(255,255,255,0.3);
+        line-height: 32px;
+        box-shadow:  5px 5px 0px 0px rgba(127, 118, 100, 0.2);
+        width: 30%;
+
+        #chart {
+            min-width: 310px;
+            height: 200px;
+            margin: 0 auto;
+        }
+    }
+}

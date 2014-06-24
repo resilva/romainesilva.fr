@@ -1,0 +1,13 @@
+{
+  "name": "romainesilva",
+  "private": true,
+  "dependencies": {
+    "modernizr": "~2.6.2",
+    "jquery": "~1.11.0",
+    "leaflet": "~0.7.3",
+    "highcharts": "~3.0.7",
+    "normalize-css": "~3.0.1",
+    "fontawesome": "~4.1.0"
+  },
+  "devDependencies": {}
+}

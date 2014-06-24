@@ -1,0 +1,167 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>Romain E Silva</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+        <link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196">
+        <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
+        <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+
+        <!-- Meta for facebook Opengraph -->
+        <meta property="og:title" content="Romain E Silva"/>
+        <meta property="og:image" content="http://www.romainesilva.fr/data/images/home/background.jpg"/>
+        <meta property="og:site_name" content="Potfolio de Romain E Silva"/>
+        <meta property="og:description" content="Portfolio d'un développeur web passionné de nouvelles technologies."/>
+
+        <!-- Meta for twitter card -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@romainesilva">
+        <meta name="twitter:creator" content="@romainesilva">
+        <meta name="twitter:url" content="http://www.romainesilva.fr/">
+        <meta name="twitter:title" content="Potfolio de Romain E Silva">
+        <meta name="twitter:description" content="Portfolio d'un développeur web passionné de nouvelles technologies.">
+        <meta name="twitter:image" content="http://www.romainesilva.fr/data/images/home/background.jpg">
+
+        <!-- build:css styles/vendor.css -->
+        <!-- bower:css -->
+        <link rel="stylesheet" href="bower_components/leaflet/dist/leaflet.css" />
+        <link rel="stylesheet" href="bower_components/normalize-css/normalize.css" />
+        <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css" />
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- build:css data/styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
+
+        <!-- build:js scripts/vendor/modernizr.js -->
+        <script src="bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy alert">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <noscript class="alert">
+            This website use a litle javascript to improve the user experience, please enable it to browse it comfortably.
+        </noscript>
+        <h1 class="visuallyhidden">Portfolio de Romain E Silva</h1>
+        <section id="home">
+            <h1 class="visuallyhidden">Accueil</h1>
+            <section id="introduction">
+                <h1 class="visuallyhidden">Pr&eacute;sentation</h1>
+                <p>Romain E Silva,<br> <strong>D&eacute;veloppeur web</strong> autodidact et passion&eacute;.</p>
+            </section>
+            <section id="github-activity">
+                <h1 class="visuallyhidden">Activit&eacute; sur Github</h1>
+                <div id="chart"></div>
+            </section>
+        </section>
+
+        <section id="projects">
+            <h1 class="visuallyhidden">Projets</h1>
+            <ul>
+                <li id="project-tbld">
+                    <a href="http://www.the-blender.io">
+                    <div class="background"></div>
+                    <div class="infos">
+                        <h2>The Blender</h2>
+                    </div>
+                    </a>
+                </li>
+                <li id="project-missionmars">
+                    <a href="http://vrap.github.io/mission-mars/">
+                    <div class="background"></div>
+                    <div class="infos">
+                        <h2>Mission mars</h2>
+                    </div>
+                    </a>
+                </li>
+                <li id="project-inews">
+                    <a href="/data/project/inews/wireframe.pdf">
+                        <div class="background"></div>
+                        <div class="infos">
+                            <h2>INews</h2>
+                        </div>
+                    </a>
+                </li>
+                <li id="project-portfolio">
+                    <a href="http://www.romainesilva.fr/">
+                    <div class="background"></div>
+                    <div class="infos">
+                        <h2>Mon portfolio</h2>
+                    </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h1 class="visuallyhidden">Contact</h1>
+            <div id="map"></div>
+            <div id="contact-info">
+                <div id="contact-centered">
+                    <h1>Rencontrez-moi</h1>
+                    <ul>
+                        <li><a href="mailto:contact@romainesilva.fr"><i class="fa fa-2x fa-envelope-o"></i> E-mail</a></li>
+                        <li class="twitter color"><a href="https://www.twitter.com/romainesilva"><i class="fa fa-2x fa-twitter"></i> Twitter</a></li>
+                        <li class="github color"><a href="https://github.com/resilva"><i class="fa fa-2x fa-github-alt"></i> Github</a></li>
+                        <li class="linkedin color"><a href="https://www.linkedin.com/in/romainesilva"><i class="fa fa-2x fa-linkedin"></i> Linkedin</a></li>
+                    </ul>
+
+                    <a href="mailto:contact@romainesilva.fr" class="resume"><i class="fa fa-2x fa-pdf-o"></i> Contactez moi pour recevoir mon CV</a>
+                </div>
+            </div>
+        </section>
+
+        <aside id="menu">
+            <h1 class="visuallyhidden">Menu</h1>
+            <div class="menu-centered">
+                <ul>
+                    <li><button type="button" href="#home" class="link-home active sr-buttonlink" title="Accueil"><i class="fa fa-2x fa-paw"><span class="sr-only">Accueil</span></i></button></li>
+                    <li><button type="button" href="#project" class="link-project sr-buttonlink" title="Projets"><i class="fa fa-2x fa-code"><span class="sr-only">Projects</span></i></button></li>
+                    <li><button type="button" href="#contact" class="link-contact sr-buttonlink" title="Contact"><i class="fa fa-2x fa-envelope-o"><span class="sr-only">Contact</span></i></button></li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/leaflet/dist/leaflet.js"></script>
+        <script src="bower_components/leaflet/dist/leaflet-src.js"></script>
+        <script src="bower_components/highcharts/highcharts.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- build:js data/scripts/main.js -->
+        <script src="data/scripts/main.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

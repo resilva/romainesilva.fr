@@ -1,0 +1,36 @@
+aside#menu {
+    position: fixed;
+    bottom: 0px;
+    height: 55px;
+    opacity: 0.6;
+    background-color: #2C3E50;
+    width: 100%;
+    color: #fff;
+    z-index: 101;
+    user-select: none;
+
+    .menu-centered {
+        position: absolute;
+        left: 50%;
+    }
+
+    ul {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        left: -50%;
+
+        li {
+            display: inline;
+            margin-right: 55px;
+            a {
+                color: #c0c0c0;
+                padding-bottom: 15px;
+            }
+        }
+    }
+}
+#menu button.active, #menu button:hover {
+    color: #000;
+    opacity: 1;
+}

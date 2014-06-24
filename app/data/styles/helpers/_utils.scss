@@ -1,0 +1,39 @@
+/**
+ * Visually hide content without waste accessibility of AT.
+ * This will be principaly used for section title and maintaining the html5
+ * outline.
+ *
+ * @source http://stackoverflow.com/questions/5523194/html5-titles-in-sectioning-elements-document-outline-and-seo-implications/5523350#5523350
+ */
+.visuallyhidden {
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+}
+
+/**
+ * Hide an element to all devices except screen readers with .sr-only. Necessary for
+ * following accessibility best practices. Can also be used as a mixin.
+ *
+ * @source http://getbootstrap.com/css/#helper-classes-screen-readers
+ */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+button.sr-buttonlink {
+    background:none!important;
+    border:none;
+    padding:0!important;
+}

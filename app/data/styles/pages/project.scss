@@ -1,0 +1,74 @@
+#projects {
+    display: none;
+    min-width: 100%;
+    min-height: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+
+    h2 {
+        font-size: 42px;
+        line-height: 18px;
+        padding-left: 30px;
+        margin: 20px 0px 10px 0px;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+
+        li {
+            height: 400px;
+            width: 100%;
+            position: relative;
+            line-height: 300px;
+            cursor: pointer;
+            text-align: center;
+            border-bottom: solid 1px white;
+            opacity: 0.7;
+            transition: opacity .5s ease-in-out, height .5s ease;
+
+            &:hover {
+                opacity: 1;
+                height: 500px;
+                line-height: 500px;
+            }
+
+            .background {
+                background-size: cover;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+            .infos {
+                position: relative;
+                display: inline-block;
+                left: 0;
+                top: 0;
+                color: #fff;
+                vertical-align: middle;
+                line-height: 1.2em;
+                margin: 0 auto;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+#project-tbld {
+    background: url('/data/project/the-blender/background.png') center center no-repeat;
+}
+#project-missionmars {
+    background: url('/data/project/mission-mars/background.png') center center no-repeat;
+}
+#project-inews {
+    background: url('/data/project/inews/background.png') center center no-repeat;
+}
+#project-portfolio {
+    background: url('/data/project/portfolio/background.png') center center no-repeat;
+}
